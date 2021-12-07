@@ -1,11 +1,11 @@
 nav {
-    padding: 0 50px;    
+    padding: 0 3rem;    
 
     .inner {
         display: flex;
         justify-content: flex-end;
         border-bottom: 1px solid $white;
-        padding: 15px;        
+        padding: 15px 0;        
 
         a {
             color: $white;

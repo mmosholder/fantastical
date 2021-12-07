@@ -1,4 +1,8 @@
+
 @import "normalize";
+
+@import '~include-media/dist/_include-media.scss';
+
 @import "font-face";
 @import "vars";
 @import "nav";
@@ -16,4 +20,34 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+// BOX-SIZING - FONT-SIZING PRESETS
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // Scales 1 rem unit to 10px
+
+  &[data-scroll='disabled'] {
+    overflow: hidden;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  min-width: 320px;
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+// Text Highlight Color
+::selection {
+  // background: rgba($dodger, 0.4);
 }

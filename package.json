@@ -9,6 +9,7 @@
         "postinstall": "mix --production"
     },
     "dependencies": {
+        "include-media": "^1.4.10",
         "laravel-mix": "^6.0.39",
         "splitting": "^1.0.6"
     },

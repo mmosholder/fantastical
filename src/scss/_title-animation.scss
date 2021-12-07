@@ -5,8 +5,13 @@
     @include rylan;
     line-height: 1;
     color: $secondary;
-    font-size: 100px;
+    font-size: 60px;
     letter-spacing: 3px;
+
+    @include media('>=tablet') {
+      
+      font-size: 100px;
+    }
   }
 
   .splitting .char {
