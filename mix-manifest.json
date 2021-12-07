@@ -1,6 +1,14 @@
 {
     "/dist/js/app.js": "/dist/js/app.js",
     "/dist/css/style.css": "/dist/css/style.css",
+    "/dist/images/android-chrome-192x192.png": "/dist/images/android-chrome-192x192.png",
+    "/dist/images/android-chrome-256x256.png": "/dist/images/android-chrome-256x256.png",
+    "/dist/images/apple-touch-icon.png": "/dist/images/apple-touch-icon.png",
+    "/dist/images/favicon-16x16.png": "/dist/images/favicon-16x16.png",
+    "/dist/images/favicon-32x32.png": "/dist/images/favicon-32x32.png",
+    "/dist/images/favicon.ico": "/dist/images/favicon.ico",
+    "/dist/images/mstile-150x150.png": "/dist/images/mstile-150x150.png",
+    "/dist/images/safari-pinned-tab.svg": "/dist/images/safari-pinned-tab.svg",
     "/dist/fonts/.DS_Store": "/dist/fonts/.DS_Store",
     "/dist/fonts/Rylan-Regular.woff": "/dist/fonts/Rylan-Regular.woff",
     "/dist/fonts/Rylan-Regular.woff2": "/dist/fonts/Rylan-Regular.woff2"
