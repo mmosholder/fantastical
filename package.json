@@ -1,37 +1,22 @@
 {
-  "name": "fantastical",
-  "version": "1.0.0",
-  "description": "My personal website",
-  "author": "Malinda Mosholder",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
-  },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9",
-    "@nuxtjs/eslint-config": "^0.0.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.1",
-    "eslint-config-standard": ">=12.0.0",
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jest": ">=22.3.0",
-    "eslint-plugin-node": ">=8.0.1",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-plugin-promise": ">=4.0.1",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-vue": "^5.2.2",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4"
-  }
+    "private": true,
+    "scripts": {
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "production": "mix --production",
+        "postinstall": "mix --production"
+    },
+    "dependencies": {
+        "laravel-mix": "^6.0.39",
+        "splitting": "^1.0.6"
+    },
+    "devDependencies": {
+        "postcss-custom-properties": "^12.0.0",
+        "postcss-preset-env": "^7.0.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.44.0",
+        "sass-loader": "^12.3.0"
+    }
 }

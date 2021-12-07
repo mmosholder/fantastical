@@ -1,0 +1,19 @@
+@import "normalize";
+@import "font-face";
+@import "vars";
+@import "nav";
+@import "title-animation";
+
+body {
+  background-color: $main;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

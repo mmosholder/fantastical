@@ -1,0 +1,52 @@
+.titleAnimation {
+  display: flex;
+  flex-wrap: wrap;
+  h1 {
+    @include rylan;
+    line-height: 1;
+    color: $secondary;
+    font-size: 100px;
+    letter-spacing: 3px;
+  }
+
+  .splitting .char {
+    opacity: 0;
+    animation: text-in 750ms forwards;
+    animation-delay: calc(55ms * var(--char-index));
+    position: relative;
+  }
+
+  .line {
+    width: 100%;
+    opacity: 0;
+    height: 2px;
+    background-color: $secondary;
+    margin-top: 10px;
+    animation: line-in 1000ms forwards;
+  }
+}
+
+@keyframes text-in {
+  0% {
+    top: -2em;
+    opacity: 1;
+  }
+  50% {
+    top: 0.1em;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes line-in {
+  0% {
+    width: 0%;
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}

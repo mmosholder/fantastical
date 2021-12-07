@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Rylan";
+  src: url("../fonts/Rylan-Regular.woff2") format("woff2"),
+    url("../fonts/Rylan-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  // font-display: swap;
+}
+
+@mixin rylan {
+  font-family: "Rylan", serif;
+  font-weight: normal;
+}
+
+@mixin roboto {
+  font-family: 'Roboto', sans-serif;
+}
